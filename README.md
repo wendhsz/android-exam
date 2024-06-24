@@ -1,5 +1,14 @@
 # android-exam
 
+## Known Issues
+1. **Bug in Pagination Feature**:
+   - **Description**: Pagination is adding all the fetched data in first initial load to the loadmore fetched data
+   - **Description**: onscroll listener loads the fetching of data many more times when the data is actually loaded
+   - **Description**: Swipe refresh triggers onscroll listener of of the adapter view
+   - **Observation**: Currently, endless scrolling works, but the data fetched are duplicated at first and unstable adding of data is observed in adapter.
+   - **Steps Taken**: I have debugged this using the debug of android studio, and showing some logs to check the flow of the code specially in onscroll of scroll listener
+   - **Potential Solution**: I would have refactored the MainActivityViewModel, RandomPersonRepositor, yPersonAdapter and RetrofitInstace to add the Paging Library of Android Jetpack  
+
 ## Goal of the exam ##
 To assess a developer's skills in terms of developing Android apps and decision-making on solving common development tasks.
 

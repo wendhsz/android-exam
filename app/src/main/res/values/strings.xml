@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidExam</string>
+    <string name="api_inclusion">name,location,email,dob,cell,picture</string>
+    <string name="api_resultCount">15</string>
+    <string name="api_nationality">us</string>
+    <string name="placeholder_name">Lastname, Firstname</string>
+    <string name="api_seed">e6aa10cad30dd6ba</string>
+    <string name="api_page_start">1</string>
+    <string name="action_retry">Retry</string>
+    <string name="title_name">Name</string>
+    <string name="title_age">Age:</string>
+    <string name="title_address">Address:</string>
+    <string name="title_birthday">Birthday:</string>
+    <string name="title_email">Email:</string>
+    <string name="title_mobile">Mobile:</string>
+    <string name="title_contact_person">Contact Person:</string>
+    <string name="title_contact_person_mobile">Contact Person Mobile:</string>
+</resources>
